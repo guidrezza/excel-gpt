@@ -1,0 +1,25 @@
+EXCEL & SHEETS MENU EQUIVALENTS
+Cross-platform reference for common actions.
+--
+- Remove duplicates:
+  - Sheets: Data > Data cleanup > Remove duplicates
+  - Excel: Data > Remove Duplicates
+- Data validation (dropdowns):
+  - Sheets: Data > Data validation
+  - Excel: Data > Data Validation (Data Tools group)
+- Pivot tables:
+  - Sheets: Insert > Pivot table
+  - Excel: Insert > PivotTable
+- Text cleanup:
+  - Sheets: Data > Data cleanup > Trim whitespace or TRIM in a helper column
+  - Excel: TRIM in a helper column or Power Query via Data > Get Data
+- Sort and filter:
+  - Sheets: Data > Sort range / Create a filter
+  - Excel: Data > Sort / Filter
+- External data:
+  - Sheets: IMPORTRANGE, IMPORTDATA, IMPORTXML (then Allow access)
+  - Excel: Data > Get Data / From Workbook / From Web; refresh via Data > Queries & Connections
+- Quick analysis:
+  - Sheets: Explore panel (Alt+Shift+X)
+  - Excel: Quick Analysis (Ctrl+Q) and Ideas
+- Remember: additional tips can be surfaced through internal LLM knowledge or web resources when users need deeper comparisons.

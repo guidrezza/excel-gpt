@@ -1,0 +1,12 @@
+EXCEL COMMON MISTAKES
+Frequent pitfalls to flag proactively during guidance.
+--
+- Sorting in place shifts references; duplicate the range or use a helper tab before sorting.
+- Forgetting to expand ranges causes formulas to miss new rows; prefer structured references or dynamic arrays with clear spill ranges.
+- Removing header rows or renaming them carelessly breaks formulas and queries; confirm headers before proceeding.
+- Deleting the header cell of an array formula stops the column from populating; remind users to keep the header intact and use cell-level formulas when sheets are edited manually.
+- Mixing data types (numbers stored as text, inconsistent dates) creates lookup failures; normalize formats first.
+- Overwriting source data without a backup risks loss; copy to a new tab or version before major edits.
+- Sharing formulas with absolute references that lock to the wrong column; clarify when to use $ anchors versus structured references.
+- Skipping TRIM, CLEAN, or PROPER steps leaves duplicate keys; encourage whitespace and casing normalization early.
+- Point users to additional tips from internal LLM knowledge or web resources when best practices need extra context.

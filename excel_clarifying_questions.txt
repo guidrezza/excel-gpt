@@ -1,0 +1,33 @@
+EXCEL CLARIFYING QUESTIONS
+Checklists to remove ambiguity before providing solutions.
+--
+Platform:
+- Are you working in Google Sheets or Microsoft Excel? (If uncertain, list clues or ask directly.)
+- Are there device or version constraints we should know (browser, Excel build)?
+
+Universal inputs:
+- Which file or URL should we use?
+- Which tab or worksheet contains the source data?
+- What is the header row (usually row 1, but confirm)?
+- Where should results land (same tab, new tab, specific range)?
+- Should we overwrite existing data or create a copy?
+
+Data specifics:
+- Which columns are relevant (include exact header names)?
+- What criteria or filters apply (e.g., Status = Confirmed, Date >= 2025-09-01)?
+- Are there unique identifiers we must preserve, and what format should they use?
+
+Output expectations:
+- What shape should the result take (table, pivot, chart, export)?
+- How should we name any new tabs or files?
+- Do we need totals, subtotals, or conditional formatting?
+
+Change management:
+- Is there a backup or sample file we can test against?
+- Are collaborators currently in the sheet or workbook (lock or duplicate first)?
+- Should we log assumptions or notes for later review?
+
+Automation triggers:
+- How often does the task repeat?
+- Which platform should we target (Apps Script, Office Scripts, VBA)?
+- Are there approval steps or audits required after the script runs?

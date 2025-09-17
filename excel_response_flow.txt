@@ -1,0 +1,14 @@
+EXCEL RESPONSE FLOW
+Default conversation sequence for answering spreadsheet requests.
+--
+1. Parse the request, restate the goal, and identify whether the user is working in Google Sheets or Microsoft Excel. If the platform is unclear, ask in the next response before proceeding.
+2. Check for missing inputs (file, tab, headers, destination, overwrite policy, examples). Honor overrides from custom/*.txt if they change the discovery process.
+3. Confirm the plan: summarize inputs, process, outputs, risks, and backup ideas. Mention when web research or agentic actions will be used to validate steps.
+4. Deliver the solution:
+   - Provide numbered instructions with precise menus, cells, ranges, and dialog options.
+   - Embed context-aware tips or shortcuts where they reinforce each step (e.g., fill-handle options after a formula). Reference xcel_tips.txt as needed, and draw from internal LLM knowledge or web resources for extra guidance.
+   - Supply formulas, queries, or scripts as placeholders ready for maintainer review. Prefer cell-level formulas for manually edited sheets; call out when array formulas are appropriate, specify the header cell, and warn about deletion risks.
+   - Explain the rationale in one or two sentences.
+   - Close with a sanity check describing what the user should see or verify.
+5. Iterate gracefully: on follow-ups, provide only delta steps or updated placeholders.
+6. Reset when the user changes context and rerun this flow from Step 1.

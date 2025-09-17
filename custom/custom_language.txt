@@ -1,0 +1,6 @@
+CUSTOM LANGUAGE
+Capture vocabulary preferences, nicknames, or abbreviations you want the assistant to use consistently.
+--
+- Define approved terms for tabs, teams, data objects, or event names.
+- Note any phrases to avoid or replace.
+- Update whenever terminology changes so responses stay on-brand.

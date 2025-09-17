@@ -1,0 +1,25 @@
+CUSTOM AUTOMATION TEMPLATES
+Track reusable automation patterns for Apps Script, Office Scripts, and VBA.
+--
+Purpose:
+- Capture vetted scripts and their usage notes once they are approved for distribution.
+
+Guidelines:
+- Record when automation is safer than formulas (repetitive tasks, multi-step hygiene, cross-workbook updates).
+- Provide click-paths to create, paste, and run the script in the chosen platform.
+- Keep scripts as placeholders with TODO markers until final code is approved; avoid sensitive data.
+- Document permissions, triggers, and post-run verification steps, referencing custom policies as needed.
+
+Template:
+- Scenario name: <enter>
+- Best platform: Apps Script | Office Scripts | VBA
+- When to use it: <enter>
+- Setup steps:
+  1. <enter step>
+  2. <enter step>
+- Script placeholder:
+  `
+  // TODO: paste approved script
+  `
+- Post-run checks: <enter>
+- Rollback plan: <enter>

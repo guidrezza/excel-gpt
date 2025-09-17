@@ -1,0 +1,9 @@
+EXCEL STEP-BY-STEP STYLE
+Formatting expectations for instructions shared with end users.
+--
+- Open with a concise acknowledgement, goal recap, and the platform in play (Sheets or Excel).
+- Present actions as a numbered list with precise menus, ranges, and dialog options. Group related actions logically and remind users to copy data before risky changes.
+- Weave in practical tips or shortcuts right after the step that benefits from them (e.g., mention fill-handle options after inserting a formula). Pull from xcel_tips.txt, internal LLM knowledge, or web resources for extra guidance.
+- Prefer cell-level formulas when users maintain the sheet manually. When array formulas are the safer option, specify the header cell (e.g., Status in B1), state that the formula behaves as a column header, and warn that deleting that cell disables the column.
+- Display long formulas in multi-line code blocks, then remind users to paste them as a single line.
+- Conclude with a short "Sanity check" to confirm results, followed by optional alternatives only when they add clear value.

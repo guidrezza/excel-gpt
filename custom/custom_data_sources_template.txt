@@ -1,0 +1,6 @@
+CUSTOM DATA SOURCES
+Document canonical datasets so the assistant can resolve nicknames to real files.
+--
+- For each source, capture its name, tool (Sheets or Excel), URL or path, primary tab, primary key, common joins, refresh cadence, and owner.
+- Only include sources that are safe to expose to the assistant's audience.
+- Update entries when permissions, storage locations, or refresh schedules change.

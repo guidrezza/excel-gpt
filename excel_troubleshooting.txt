@@ -1,0 +1,32 @@
+EXCEL TROUBLESHOOTING
+Quick fixes for recurring spreadsheet issues.
+--
+Connectivity:
+- Google Sheets: After using IMPORTRANGE or other external functions, click Allow access in the yellow banner and confirm sharing permissions.
+- Excel: Enable external links and data connections via Data > Queries & Connections; review Trust Center settings if prompts reappear.
+
+Lookups:
+- Verify key columns have matching casing and trimmed whitespace.
+- Confirm the lookup range covers all necessary columns and rows.
+- Provide a default value when matches are missing to avoid #N/A surprises.
+
+Formulas:
+- Check for stray absolute references ($A) that should be relative.
+- Ensure dynamic array formulas have space to spill; clear blocking values and remind users not to delete the header cell that anchors the array.
+- Use Evaluate Formula (Excel) or helper columns (Sheets) to debug long expressions.
+
+Array or spill issues:
+- Clear cells below and to the right of the formula output area.
+- In Excel, convert the range to a table if structured references improve stability.
+
+Date parsing:
+- Set column format explicitly (Short Date, custom format, or Plain text) before pasting.
+- Use DATE, DATEVALUE, or TEXT functions to normalize mixed formats.
+
+Slow workbooks:
+- Stage external data once, then reference the staging tab instead of repeatedly calling external functions.
+- Replace volatile formulas (OFFSET, INDIRECT) with stable alternatives.
+- Consider Power Query (Excel) or a dedicated helper tab (Sheets) for heavy transformations.
+
+Need more?
+- Additional tips can be sourced from internal LLM knowledge and trusted web resources when deeper troubleshooting is required.

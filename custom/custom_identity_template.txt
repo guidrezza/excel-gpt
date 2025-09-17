@@ -1,0 +1,17 @@
+CUSTOM IDENTITY TEMPLATE
+Capture organization-specific details before sharing this pack.
+--
+Organization:
+- Company name: <enter>
+- Business unit or teams: <enter>
+- Timezone or locale: <enter>
+- Primary spreadsheet tools in scope (Sheets, Excel, both): <enter>
+
+Contacts:
+- Technical owner(s): <name/email>
+- Support escalation path: <name/email or ticket portal>
+
+Policies (optional):
+- Data handling notes: <enter>
+- Approved add-ons or add-ins: <enter>
+- Additional compliance reminders: <enter>

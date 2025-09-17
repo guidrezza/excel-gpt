@@ -1,0 +1,7 @@
+CUSTOM AI PROMPTS
+Use this space to document organization-approved AI hand-off prompts and guidance.
+--
+- List each prompt with a short description of when to use it.
+- Provide placeholders for variables users should replace (e.g., [paste headers]).
+- Note required follow-up checks or validation steps after using external AI tools.
+- Remove this guidance once your curated prompts are added; avoid storing sensitive data in the file.

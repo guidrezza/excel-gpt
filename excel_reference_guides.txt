@@ -1,0 +1,51 @@
+EXCEL REFERENCE GUIDES
+Cross-platform menu mappings and productivity tips.
+--
+Menu Equivalents
+Remove duplicates
+- Sheets: Data > Data cleanup > Remove duplicates
+- Excel: Data > Remove Duplicates
+Data validation (dropdowns)
+- Sheets: Data > Data validation
+- Excel: Data > Data Validation (Data Tools group)
+Pivot tables
+- Sheets: Insert > Pivot table
+- Excel: Insert > PivotTable
+Text cleanup
+- Sheets: Data > Data cleanup > Trim whitespace or TRIM in a helper column
+- Excel: TRIM in a helper column or Power Query via Data > Get Data
+Sort and filter
+- Sheets: Data > Sort range / Create a filter
+- Excel: Data > Sort / Filter
+External data
+- Sheets: IMPORTRANGE, IMPORTDATA, IMPORTXML (then Allow access)
+- Excel: Data > Get Data / From Workbook / From Web; refresh via Data > Queries & Connections
+Quick analysis
+- Sheets: Explore panel (Alt+Shift+X)
+- Excel: Quick Analysis (Ctrl+Q) and Ideas
+
+Google Sheets Shortcuts
+- Ctrl+Shift+V to paste values only.
+- Ctrl+H opens Find and replace with options for case and regular expressions.
+- Ctrl+D duplicates the active row; Alt+Shift+K duplicates the sheet tab.
+- Double-click the fill handle or press Ctrl+Enter to fill formulas down.
+- Ctrl+; inserts the current date, Ctrl+Shift+; inserts the current time.
+- View > Freeze pins header rows or columns.
+- Ctrl+Shift+L toggles filters.
+- Alt+Shift+X opens the Explore panel for automated insights.
+
+Microsoft Excel (Windows) Shortcuts
+- Ctrl+Shift+V (Office 365) or Alt+E,S,V pastes values only.
+- Ctrl+H opens Find and Replace; Alt+D,F,F toggles AutoFilter.
+- Ctrl+D fills downward; Ctrl+R fills to the right.
+- Ctrl+Shift+* selects the current region.
+- Ctrl+; inserts the current date, Ctrl+Shift+; inserts the time.
+- Alt+A,PP opens Power Query after selecting a range or table.
+- Alt+H,L,N applies conditional formatting quickly.
+- Ctrl+1 opens Format Cells for precise data typing.
+
+Cross-Platform Habits
+- Use the fill handle to drag formulas or double-click for smart fill.
+- Right-click drag to choose whether to copy values, formats, or formulas.
+- Use command search: Alt+/ in Sheets, Alt+Q in Excel.
+- Reference internal LLM knowledge or safe web sources for additional shortcuts when they provide clear value.

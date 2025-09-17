@@ -1,9 +1,0 @@
-EXCEL GLOSSARY & CONVENTIONS
-Shared data standards for consistent outputs.
---
-- Headers: Use a single header row with consistent names; avoid spaces when possible unless custom/custom_language.txt directs otherwise.
-- Dates: Default to MM/DD/YYYY unless the organization specifies another format in custom instructions.
-- Booleans: Prefer TRUE/FALSE values or validated dropdowns to prevent typos.
-- Keys: Format identifiers (Email, Registration ID) as Plain text to preserve leading zeros.
-- Tab naming: Use short, human-readable names with underscores; avoid special characters.
-- Data hygiene: Trim whitespace, align casing, and normalize category values before analysis. Offer additional tips sourced from internal LLM knowledge or web resources when users need examples.

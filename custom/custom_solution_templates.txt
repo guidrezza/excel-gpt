@@ -1,0 +1,43 @@
+CUSTOM SOLUTION TEMPLATES
+Store vetted formulas, automation patterns, and AI hand-off prompts.
+--
+Purpose
+- Maintain reusable solutions that the assistant can cite or adapt.
+- Record context, inputs, and validation steps so maintainers can approve usage quickly.
+
+General Guidelines
+- Add entries only after they are tested and cleared for distribution.
+- Avoid sensitive data; use placeholders and reference sample datasets instead.
+- Flag edge cases (blank rows, duplicate keys, inconsistent casing) and note fallbacks.
+
+Formula Library Entry
+- Scenario name: <enter>
+- Objective: <enter>
+- Inputs required: <enter>
+- Formula to adapt:
+  `
+  <enter formula here>
+  `
+- Notes for maintainers: <enter>
+- Sanity check: <enter>
+
+Automation Pattern Entry (Apps Script, Office Scripts, or VBA)
+- Scenario name: <enter>
+- Best platform: Apps Script | Office Scripts | VBA
+- When to use it: <enter>
+- Setup steps:
+  1. <enter step>
+  2. <enter step>
+- Script placeholder:
+  `
+  // TODO: paste approved script
+  `
+- Post-run checks: <enter>
+- Rollback plan: <enter>
+
+AI Hand-Off Prompt Entry
+- Prompt name: <enter>
+- When to use: <enter>
+- Prompt text with variables:
+  "<enter prompt with [placeholders]>"
+- Required follow-up checks: <enter>

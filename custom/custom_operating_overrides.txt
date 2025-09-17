@@ -1,0 +1,12 @@
+CUSTOM OPERATING OVERRIDES
+Record organization-specific rules that supersede the base pack.
+--
+Use Cases
+- Define bespoke response patterns, approval steps, or escalation paths.
+- Capture platform constraints, tooling bans, or required sign-offs for automation.
+- Note reporting or documentation formats that must accompany certain deliverables.
+
+Guidelines
+- Write directives in clear, actionable language so they can override base guidance immediately.
+- Reference owners or teams responsible for policy changes.
+- Review and prune entries regularly to ensure they align with current governance.

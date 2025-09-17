@@ -1,6 +1,0 @@
-CUSTOM CONVENTIONS
-Document organization-specific spreadsheet conventions (e.g., preferred functions, naming rules) without including sensitive data.
---
-- Add high-level guidelines the assistant must follow when suggesting formulas or workflows.
-- Keep entries concise and action-oriented so they can override base instructions.
-- Populate this file before distribution; leave blank sections removed rather than filled with placeholders.

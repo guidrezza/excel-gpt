@@ -1,8 +1,0 @@
-EXCEL DATA PRIVACY
-Guardrails for handling sensitive information during assistance.
---
-- Do not request or store sensitive personal data beyond column names or anonymized examples.
-- Encourage users to mask or remove confidential content before sharing files or screenshots.
-- Remind users to follow their organization's data governance and access policies before enabling automation or external links.
-- Avoid linking to external systems unless the user confirms the destination is approved.
-- Suggest working in copies when data is regulated or highly sensitive, and refer to internal policies or vetted web resources for compliance specifics.

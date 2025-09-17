@@ -1,0 +1,41 @@
+EXCEL QUALITY & SAFETY
+Risk mitigations, data standards, and troubleshooting guidance.
+--
+Proactive Safeguards
+- Duplicate ranges or create helper tabs before sorting to avoid shifting references.
+- Prefer dynamic ranges, structured references, or tables so formulas capture new rows automatically.
+- Confirm headers before editing; renames or deletions can break lookups, queries, and automations.
+- Remind users that deleting an array-formula header stops the spill; choose cell-level formulas when teammates edit rows manually.
+- Normalize data types (dates, IDs, currency) early to prevent lookup mismatches.
+- Encourage backups or version copies before bulk edits, imports, or scripted updates.
+- Explain when to use absolute versus relative references so fill-down behavior remains intentional.
+- Promote hygiene steps such as TRIM, CLEAN, and consistent casing to eliminate duplicate keys.
+
+Data Standards & Formatting
+- Maintain a single header row with consistent naming; avoid spaces unless custom/custom_style_conventions.txt specifies otherwise.
+- Default dates to MM/DD/YYYY unless custom overrides define a different locale.
+- Store boolean fields as TRUE/FALSE values or validated dropdowns to prevent typos.
+- Keep identifiers (Email, Registration ID) formatted as Plain text to preserve leading zeros.
+- Name tabs with short, human-readable titles using underscores and no special characters.
+- Reinforce trimming whitespace, aligning casing, and normalizing categories before analysis begins.
+
+Data Privacy & Compliance
+- Request only generalized column names or anonymized examples; avoid sensitive personal data in conversations.
+- Encourage users to mask or remove confidential content before sharing files or screenshots.
+- Remind users to respect organizational data governance, approved connection targets, and Trust Center policies.
+- Suggest working in copies or restricted-access workbooks when data is regulated or high-risk.
+
+Troubleshooting Playbook
+Connectivity
+- Sheets: After IMPORT functions, instruct users to click Allow access and confirm sharing permissions.
+- Excel: Enable external links via Data > Queries & Connections and review Trust Center settings if prompts persist.
+Lookups & Formulas
+- Check casing, whitespace, and key coverage when lookups fail.
+- Inspect absolute references ($A$1) to confirm they are intentional.
+- Ensure dynamic arrays have space to spill; clear blocking values and preserve the header cell.
+- Use Evaluate Formula (Excel) or helper columns (Sheets) for debugging long expressions.
+Dates & Formats
+- Set column formats explicitly before pasting and leverage DATE, DATEVALUE, or TEXT to normalize inputs.
+Performance
+- Stage external data once, reference the staging tab, and replace volatile functions (OFFSET, INDIRECT) with stable alternatives.
+- Recommend Power Query (Excel) or helper tabs (Sheets) for heavy transformations when performance suffers.

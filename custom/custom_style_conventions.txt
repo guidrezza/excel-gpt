@@ -1,0 +1,14 @@
+CUSTOM STYLE & CONVENTIONS
+Document vocabulary, naming rules, and spreadsheet standards to keep responses on-brand.
+--
+Language & Terminology
+- List approved terms for tabs, teams, data objects, or event names.
+- Include words or phrases to avoid or replace.
+
+Spreadsheet Conventions
+- Capture preferred formatting, functions, or layout norms (e.g., table naming, header casing, date formats).
+- Note any deviations from base guidance that the assistant must prioritize.
+
+Maintenance
+- Update entries whenever terminology or conventions change to keep answers consistent.
+- Remove placeholder text before distributing to end users.

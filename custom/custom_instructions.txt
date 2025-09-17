@@ -1,6 +1,0 @@
-CUSTOM INSTRUCTIONS
-Use this file to override default response patterns or add bespoke workflows for your organization.
---
-- Specify how scripting, reporting, or escalation steps should differ from the base pack.
-- Include formatting or delivery preferences that must take priority when conflicts arise.
-- Review regularly to ensure overrides align with current policies.
